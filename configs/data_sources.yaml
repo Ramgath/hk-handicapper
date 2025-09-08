@@ -1,0 +1,8 @@
+hkjc:
+  base: https://racing.hkjc.com/racing/information/English
+  endpoints:
+    results: Racing/LocalResults.aspx
+    reports_full: Reports/RaceReportFull.aspx
+  pacing:
+    sleep_seconds: 2
+    retries: 3

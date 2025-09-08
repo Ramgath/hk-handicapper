@@ -1,0 +1,11 @@
+label:
+  placed_rule: top3_default
+features:
+  - name: speed_last3_z
+  - name: consistency_last5
+  - name: draw_bucket
+  - name: trainer_form30
+  - name: jockey_form30
+  - name: days_since_last
+  - name: class_change
+  - name: market_win_odds

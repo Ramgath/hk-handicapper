@@ -1,0 +1,22 @@
+[project]
+name = "hk-handicapper"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas",
+  "numpy",
+  "requests",
+  "beautifulsoup4",
+  "lxml",
+  "scikit-learn",
+  "xgboost",
+  "pyarrow",
+  "python-dotenv",
+  "pydantic",
+  "google-cloud-bigquery>=3.25.0",
+  "google-cloud-bigquery-storage",
+  "sentence-transformers",
+]
+
+[tool.ruff]
+line-length = 100

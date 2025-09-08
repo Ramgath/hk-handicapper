@@ -1,0 +1,7 @@
+bankroll_zar: 35000
+currency: HKD
+modes:
+  high:   {kelly_frac: 0.25, max_bet_pct: 0.01, max_daily_loss_pct: 0.05}
+  medium: {kelly_frac: 0.50, max_bet_pct: 0.02, max_daily_loss_pct: 0.05}
+  low:    {kelly_frac: 0.75, max_bet_pct: 0.05, max_daily_loss_pct: 0.05}
+edge_min: 0.02

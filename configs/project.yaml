@@ -1,0 +1,10 @@
+project_id: YOUR_GCP_PROJECT_ID
+location: US
+datasets:
+  prod: hkracing
+  staging: hkracing_staging
+  ops: ops
+kb:
+  embedding_model: intfloat/e5-small
+  dim: 384
+  chunk_tokens: 400

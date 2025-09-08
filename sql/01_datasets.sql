@@ -1,0 +1,3 @@
+CREATE SCHEMA IF NOT EXISTS `{{PROJECT_ID}}.hkracing` OPTIONS(location='US');
+CREATE SCHEMA IF NOT EXISTS `{{PROJECT_ID}}.hkracing_staging` OPTIONS(location='US');
+CREATE SCHEMA IF NOT EXISTS `{{PROJECT_ID}}.ops` OPTIONS(location='US');
